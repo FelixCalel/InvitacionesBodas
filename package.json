@@ -1,0 +1,24 @@
+{
+  "name": "invitaciones-bodas",
+  "version": "1.0.0",
+  "description": "Sitio web de invitaciones para bodas - Desplegado en Vercel",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Static site - no build needed'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "wedding",
+    "invitation",
+    "boda",
+    "invitacion",
+    "guatemala"
+  ],
+  "author": "FelixCalel",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FelixCalel/InvitacionesBodas.git"
+  }
+}

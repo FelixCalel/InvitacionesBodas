@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "name": "invitaciones-bodas",
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "regions": ["iad1"],
+  "public": true
+}
